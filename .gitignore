@@ -1,0 +1,34 @@
+# Secrets and local environment
+.env
+.env.*
+*.env
+.databricks_env
+*token*
+*secret*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+airflow_venv/
+
+# Airflow runtime and logs
+logs/
+airflow.cfg
+airflow.db
+webserver_config.py
+
+# Generated data and local indexes
+*.csv
+*.parquet
+*.pkl
+*.index
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
